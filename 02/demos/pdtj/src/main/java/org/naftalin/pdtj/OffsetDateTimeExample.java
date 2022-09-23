@@ -27,6 +27,7 @@ public class OffsetDateTimeExample {
         for (WorkPeriod wp : wps) {
             System.out.print(wp + "\t" + (!wp.contains(originLocalLandingTime)));
         }
+
     }
 }
 
