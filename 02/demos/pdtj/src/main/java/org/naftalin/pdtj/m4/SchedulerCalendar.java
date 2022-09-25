@@ -9,7 +9,7 @@ import static java.util.stream.Collectors.toCollection;
 public class SchedulerCalendar {
 
     final private NavigableSet<WorkPeriod> workPeriods = new TreeSet<>(); // ordered by start time
-    final private NavigableSet<Event> events = new TreeSet<>();           // ordered by start time
+    final private NavigableSet<Event> events = new TreeSet<>();           // ordered by start time // tree set ve
     final private List<Task> tasks = new ArrayList<>();                   // no natural order, user-ordered by priority
 
     public Schedule createSchedule(LocalDateTime scheduleStart, ZoneId zoneId) {
