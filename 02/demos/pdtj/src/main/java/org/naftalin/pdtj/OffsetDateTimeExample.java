@@ -28,6 +28,8 @@ public class OffsetDateTimeExample {
             System.out.print(wp + "\t" + (!wp.contains(originLocalLandingTime)));
         }
 
+        //biribirine cevrimlerde kullanilabilir OffsetDateTime.of() ile yapilabilir
+
     }
 }
 
